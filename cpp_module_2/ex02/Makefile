@@ -1,4 +1,4 @@
-NAME = Orthodox
+NAME = Overload
 
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
