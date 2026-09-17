@@ -5,10 +5,11 @@ int main()
     try
 	{
 		Bureaucrat obj("Idou", 2);
-		std::cout << obj << std::endl;
+		std::cout << "the original state! : " << obj << std::endl;
 		obj.inrement();
-		std::cout << obj << std::endl;
+		std::cout << "After incrementing : " << obj << std::endl;
 		obj.decrement();
+		std::cout << "After decrementing : " << obj << std::endl;
 	}
 	catch(std::exception& e)
 	{
