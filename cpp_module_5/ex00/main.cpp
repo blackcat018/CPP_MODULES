@@ -11,6 +11,8 @@ int main()
 		obj.decrement();
 		std::cout << "After decrementing : " << obj << std::endl;
 		std::cout << "\n--------- testing exception ---------" << std::endl;
+		obj.inrement();
+		obj.inrement();
 	}
 	catch(std::exception& e)
 	{
