@@ -10,6 +10,7 @@ int main()
 		std::cout << "After incrementing : " << obj << std::endl;
 		obj.decrement();
 		std::cout << "After decrementing : " << obj << std::endl;
+		std::cout << "\n--------- testing exception ---------" << std::endl;
 	}
 	catch(std::exception& e)
 	{
