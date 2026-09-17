@@ -1,14 +1,10 @@
-# Compiler
 CXX = g++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++17
 
-# Executable name
 NAME = phonebook
 
-# Source files
 SRCS = main.cpp PhoneBook.cpp Contact.cpp
 
-# Object files
 OBJS = $(SRCS:.cpp=.o)
 
 # Header dependencies (optional)

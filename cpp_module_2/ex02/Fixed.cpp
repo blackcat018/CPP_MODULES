@@ -12,7 +12,7 @@ Fixed::Fixed(const int param)
 }
 
 Fixed::Fixed(const float param)
-{
+{2
     // std::cout << "Float constructor called" << std::endl;
     value = roundf(param * (float)(1 << bits));
 }
