@@ -23,7 +23,7 @@ class MutantStack : public std::stack<T>
             }
             return(*this);
         }
-        ~MutantStack(){}
+        virtual ~MutantStack(){}
 
         //n3tiw lhad 5ona iterators dyalo!
         typedef typename std::stack<T>::container_type::iterator iterator;
