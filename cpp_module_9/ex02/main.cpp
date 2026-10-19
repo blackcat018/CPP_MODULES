@@ -10,7 +10,7 @@ int main(int ac, char **av)
     try
     {
         PmergeMe test;
-        test.unpack(ac,av);
+        test.sortAndTime(ac,av);
     }
     catch(const std::exception &e)
     {
