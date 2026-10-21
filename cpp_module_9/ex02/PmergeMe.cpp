@@ -15,7 +15,7 @@ PmergeMe::PmergeMe(const PmergeMe &cpy)
 PmergeMe& PmergeMe::operator=(const PmergeMe& op)
 {
     (void) op;  
-    return *this;
+    return *this;//mothing to assign, no member variables to copy
 }
 
 PmergeMe::~PmergeMe(){}

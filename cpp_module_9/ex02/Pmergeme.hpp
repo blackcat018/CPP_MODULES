@@ -6,6 +6,7 @@
 #include <cstdlib>
 #include <vector>
 #include <deque>
+#include <errno.h>
 #include <ctime>
 #include <algorithm>
 #include <limits.h>
