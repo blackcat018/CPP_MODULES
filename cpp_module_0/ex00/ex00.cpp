@@ -3,7 +3,9 @@
 
 static std::string uppies(std::string str)
 {
-    int i = 0;
+    int i;
+
+    i = 0;
     while (str[i])
     {
         if(str[i] <= 122 && str[i] >= 97)
